@@ -1,0 +1,9 @@
+apiVersion: ml.kubeinfer.io/v1
+kind: InferenceJob
+metadata:
+  labels:
+    app.kubernetes.io/name: kubeinfer
+    app.kubernetes.io/managed-by: kustomize
+  name: inferencejob-sample
+spec:
+  # TODO(user): Add fields here
